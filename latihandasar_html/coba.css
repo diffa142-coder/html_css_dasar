@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid black;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    background: #f2f2f2;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.judul h3,
+.judul h4 {
+    margin: 0;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    background: #dcdcdc; /* abu-abu utama */
+}
+
+/* SIDEBAR KIRI */
+.left {
+    width: 220px;
+    padding: 15px;
+    border-right: 1px solid black;
+    background: #dcdcdc;
+}
+
+.left h4 {
+    margin-top: 0;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left ul li {
+    margin-bottom: 8px;
+}
+
+.left ul li a {
+    display: block;
+    padding: 8px;
+    background: #cfcfcf;
+    text-decoration: none;
+    color: black;
+}
+
+.left ul li a:hover {
+    background: yellow;
+}
+
+/* KONTEN TENGAH */
+main {
+    flex: 1;
+    padding: 20px;
+    background: #dcdcdc;
+}
+
+main h4 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+/* SIDEBAR KANAN */
+.right {
+    width: 250px;
+    padding: 15px;
+    border-left: 1px solid black;
+    background: #dcdcdc;
+}
+
+.right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right ul li {
+    margin-bottom: 10px;
+}
+
+.right ul li a {
+    display: block;
+    padding: 8px;
+    background: teal;
+    color: white;
+    text-decoration: none;
+}
+
+.right ul li a:hover {
+    background: orange;
+}
+
+footer {
+    background: #4b5d73;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
