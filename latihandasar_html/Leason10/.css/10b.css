@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    }
+
+    .card {
+        width: 600px;
+        background: white;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border-radius: 6px;
+        margin: 50px auto;
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .info {
+        flex: 1;
+    }
+
+    .name {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .desc {
+        color: gray;
+        margin-top: 4px;
+    }
+
+    .status {
+        color: gray;
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .follow-btn {
+        background: #1da1f2;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
