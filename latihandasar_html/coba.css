@@ -1,117 +1,73 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #e6e6e6;
+    padding: 10px;
 }
 
-.container {
-    width: 1000px;
-    margin: 20px auto;
-    background: white;
-    border: 1px solid black;
+.card {
+    width: 200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    align-items: center; 
+    vertical-align: top;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px; 
+    overflow: hidden;
 }
 
-/* HEADER */
-header {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    border-bottom: 1px solid black;
-    background: #f2f2f2;
-}
-
-.logo {
-    margin-right: 15px;
-}
-
-.judul h3,
-.judul h4 {
-    margin: 0;
-}
-
-/* CONTENT */
-.content {
-    display: flex;
-    background: #dcdcdc; /* abu-abu utama */
-}
-
-/* SIDEBAR KIRI */
-.left {
-    width: 220px;
-    padding: 15px;
-    border-right: 1px solid black;
-    background: #dcdcdc;
-}
-
-.left h4 {
-    margin-top: 0;
-}
-
-.left ul {
-    list-style: none;
-    padding: 0;
-}
-
-.left ul li {
-    margin-bottom: 8px;
-}
-
-.left ul li a {
+.profile-pic {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     display: block;
-    padding: 8px;
-    background: #cfcfcf;
-    text-decoration: none;
-    color: black;
 }
 
-.left ul li a:hover {
-    background: yellow;
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
-/* KONTEN TENGAH */
-main {
-    flex: 1;
-    padding: 20px;
-    background: #dcdcdc;
+.image {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
 }
 
-main h4 {
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
+.mutual-friends {
+    color: gray;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-/* SIDEBAR KANAN */
-.right {
-    width: 250px;
-    padding: 15px;
-    border-left: 1px solid black;
-    background: #dcdcdc;
-}
-
-.right ul {
-    list-style: none;
-    padding: 0;
-}
-
-.right ul li {
-    margin-bottom: 10px;
-}
-
-.right ul li a {
-    display: block;
-    padding: 8px;
-    background: teal;
+.add-friend-button {
+    background-color: rgb(24, 119, 242);
     color: white;
-    text-decoration: none;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    transition: background-color 0.15s, opacity 0.15s;
 }
 
-.right ul li a:hover {
-    background: orange;
+.add-friend-button:hover {
+    background-color: rgb(20, 100, 210);
 }
 
-footer {
-    background: #4b5d73;
-    color: white;
-    text-align: center;
-    padding: 12px;
+.add-friend-button:active {
+    opacity: 0.8;
 }
