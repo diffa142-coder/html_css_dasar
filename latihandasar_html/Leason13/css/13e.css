@@ -1,4 +1,3 @@
-/* Styling untuk akurasi visual */
 .main-container {
   width: 450px;
   background: white;
@@ -9,7 +8,6 @@
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* Level 1: Vertical */
 .label-all-inboxes {
   font-size: 11px;
   color: #707070;
@@ -18,7 +16,6 @@
   letter-spacing: 0.5px;
 }
 
-/* Level 2: Horizontal */
 .email-row {
   display: flex;
   flex-direction: row;
@@ -32,18 +29,16 @@
   margin-right: 12px;
 }
 
-/* Level 3: Vertical */
 .content-column {
   display: flex;
   flex-direction: column;
-  flex: 1; /* Mengisi sisa ruang horizontal */
+  flex: 1; 
 }
 
-/* Level 4: Horizontal */
 .header-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; /* Nama di kiri, Waktu di kanan */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -70,5 +65,5 @@
   margin-top: 2px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; /* Membuat teks terpotong rapi dengan ... */
+  text-overflow: ellipsis; 
 }
