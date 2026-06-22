@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eee;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.judul h3, 
+.judul h4 {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    width: 200px;
+    padding: 10px;
+    border-right: 1px solid #000;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left ul li {
+    margin-bottom: 5px;
+}
+
+.left ul li a {
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    background: #ddd;
+    color: black;
+}
+
+.left ul li a:hover,
+.left ul li a.active {
+    background: yellow;
+}
+
+main {
+    flex: 1;
+    padding: 15px;
+}
+
+.right {
+    width: 220px;
+    padding: 10px;
+    border-left: 1px solid #000;
+}
+
+.right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right ul li {
+    margin-bottom: 8px;
+}
+
+.right ul li a {
+    display: block;
+    padding: 6px;
+    background: teal;
+    color: white;
+    text-decoration: none;
+}
+
+.right ul li a:hover {
+    background: orange;
+}
+
+footer {
+    background: #3f5166;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
