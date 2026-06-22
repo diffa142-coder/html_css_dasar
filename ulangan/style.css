@@ -1,0 +1,184 @@
+* {
+    border: 1px soli white ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(27, 29, 29);
+    height: 10000px;
+    font-family: Helvetica;
+}
+
+html {
+    scroll-padding-top: 80px;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px 30px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+    object-fit: cover;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li a {
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.nav-links a:hover {
+    background-color: rgb(69, 60, 60);
+    color: aliceblue;
+    border: none;
+    border-radius: 25px;
+}
+
+.home-conten {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.home {
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+.home h1 {
+    color: aliceblue;
+}
+
+.home p {
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+}
+
+.home h3 {
+    color: white;
+}
+
+.img img {
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.home button {
+    padding: 15px 30px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about-item h1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about-item h3 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about img {
+    width: 355px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 70px;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+
+.motor {
+    margin-left: 100px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(119, 117, 117);
+    padding: 15px;
+    margin-right: 300px;
+    border-radius: 25px;
+}
+
+.mobil {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(119, 117, 117);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.service {
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.judul {
+justify-content: space-between;
+margin-left: 556px;
+margin-top: 200px;
+}
+
+.luar {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.paket-biasa {
+    width: 150px;
+    height: 320px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(199, 196, 196);
+    padding: 15px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
